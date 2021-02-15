@@ -1,0 +1,27 @@
+{
+  "name": "rectangles",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "test": "jest",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "~4.1.5",
+    "eslint": "~7.19.0",
+    "@tsconfig/node14": "~1.0.0",
+    "jest": "~26.6.3",
+    "@types/node": "~14.14.27",
+    "@types/jest": "~26.0.20",
+    "ts-jest": "~26.5.1"
+  },
+  "dependencies": {
+    "line-intersect": "~3.0.0",
+    "fast-csv": "~4.3.6"
+  }
+}
